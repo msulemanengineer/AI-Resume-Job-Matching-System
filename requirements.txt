@@ -1,0 +1,32 @@
+# ---------------------------------------------------------------------------
+# AI Resume-Job Matching System - Python dependencies
+# Tested with Python 3.10 - 3.12 (PyTorch has no 3.13/3.14 wheels yet).
+# ---------------------------------------------------------------------------
+
+# --- NLP / embeddings ---
+sentence-transformers>=3.0.0,<6.0.0   # pretrained sentence embedding models
+torch>=2.2.0,<3.0.0                   # backend that sentence-transformers runs on
+
+# --- Classic ML / math ---
+scikit-learn>=1.4.0,<2.0.0            # cosine_similarity
+numpy>=1.26.0,<3.0.0
+pandas>=2.1.0,<3.0.0                  # tabular display of skills
+
+# --- PDF text extraction ---
+PyMuPDF>=1.24.0,<2.0.0                # primary extractor (fitz)
+pypdf>=4.2.0,<7.0.0                   # fallback extractor
+
+# --- Backend API ---
+fastapi>=0.110.0,<1.0.0
+uvicorn[standard]>=0.29.0,<1.0.0
+pydantic>=2.6.0,<3.0.0
+pydantic-settings>=2.2.0,<3.0.0
+python-multipart>=0.0.9               # required by FastAPI for file uploads
+
+# --- Frontend ---
+streamlit>=1.33.0,<2.0.0
+requests>=2.31.0,<3.0.0
+
+# --- Testing ---
+pytest>=8.0.0,<9.0.0
+httpx>=0.27.0,<1.0.0                  # used by fastapi.testclient

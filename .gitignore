@@ -1,0 +1,55 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Environment / secrets ---
+.env
+.env.local
+*.key
+
+# --- Model cache (downloaded at runtime, ~80 MB - do not commit) ---
+.cache/
+models/
+*.bin
+*.safetensors
+
+# --- PRIVACY: never commit real resumes or uploads ---
+# Only the fictional data/sample_* files belong in git.
+uploads/
+*_resume.pdf
+!data/sample_resume.pdf
+*.docx
+
+# --- Testing / tooling ---
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+
+# --- Editors / OS ---
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore

@@ -1,0 +1,36 @@
+AI/Machine Learning Intern
+
+About the role
+We are looking for an AI/ML Intern to join our data team for a 6-month
+internship. You will work alongside our engineers on real natural language
+processing problems, from prototyping in notebooks to shipping a small service
+into production.
+
+Responsibilities
+- Build and evaluate machine learning models for text classification and
+  semantic search use cases.
+- Work with NLP techniques such as text preprocessing, embeddings and
+  similarity search.
+- Write clean, tested Python code and expose models through REST APIs.
+- Analyse datasets with Pandas and NumPy and present the findings clearly.
+- Collaborate with the team using Git and GitHub, and help maintain our CI/CD
+  pipelines.
+
+Required skills
+- Strong Python programming skills.
+- Practical experience with Machine Learning and scikit-learn.
+- Familiarity with Deep Learning frameworks such as PyTorch or TensorFlow.
+- Understanding of NLP fundamentals: tokenization, embeddings, transformers.
+- Experience building REST APIs (FastAPI or Flask).
+- Comfortable with SQL for data extraction.
+- Version control with Git.
+
+Nice to have
+- Exposure to Docker and containerised deployments.
+- Experience with cloud platforms, especially AWS.
+- Familiarity with LLMs, RAG pipelines or vector databases.
+- Data visualization skills.
+
+What we offer
+Mentorship from senior ML engineers, a real production codebase to learn from,
+and a flexible hybrid working arrangement.
