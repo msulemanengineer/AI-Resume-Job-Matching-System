@@ -1,0 +1,48 @@
+ALEX MORGAN
+Final-year Computer Science Student
+Email: alex.morgan@example.com | GitHub: github.com/example | Location: Remote
+
+SUMMARY
+Final-year Computer Science student specialising in artificial intelligence and
+natural language processing. Comfortable taking a model from a notebook
+experiment to a deployed REST API. Looking for an AI/ML internship where I can
+work on real text data.
+
+EDUCATION
+B.Sc. Computer Science, Example University (2022 - 2026)
+Relevant coursework: Machine Learning, Deep Learning, Natural Language
+Processing, Databases, Statistics, Data Structures and Algorithms.
+
+TECHNICAL SKILLS
+Languages: Python, SQL, JavaScript
+ML / AI: Machine Learning, Deep Learning, NLP, scikit-learn, PyTorch,
+         Hugging Face sentence-transformers
+Data: Pandas, NumPy, Matplotlib
+Backend: FastAPI, REST APIs
+Tools: Git, GitHub, Docker, Linux, pytest
+
+PROJECTS
+Semantic Document Search Engine
+- Built a search tool that embeds documents with sentence-transformers and
+  retrieves the closest matches using cosine similarity over a FAISS index.
+- Served the model behind a FastAPI endpoint and containerised it with Docker.
+
+Customer Review Sentiment Classifier
+- Trained a text classification model on 50,000 product reviews using
+  scikit-learn, then fine-tuned a small transformer in PyTorch for comparison.
+- Ran the experiments end to end: cleaning, feature extraction, cross
+  validation and error analysis.
+
+Sales Data Analysis Dashboard
+- Analysed three years of transaction data with Pandas and NumPy, extracted the
+  raw data with SQL, and presented the findings as an interactive dashboard.
+
+EXPERIENCE
+Data Science Intern, Example Analytics (Summer 2025)
+- Cleaned and analysed customer datasets with Python and SQL.
+- Automated a weekly reporting pipeline, cutting manual work by several hours.
+- Worked in a small agile team, using Git and GitHub for all code review.
+
+CERTIFICATIONS
+- Machine Learning Specialisation (online)
+- Deep Learning with PyTorch (online)
